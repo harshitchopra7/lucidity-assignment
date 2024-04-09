@@ -1,0 +1,19 @@
+.navbar-container {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-alignment {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.admin-toggler {
+    display: flex;
+    align-items: center;
+}
+
+.logout-icon {
+    cursor: pointer;
+}

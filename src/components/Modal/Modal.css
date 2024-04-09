@@ -1,0 +1,84 @@
+.modal-container {
+    background-color: #333333;
+    color: #d9d9d9;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+    margin-top: -15px;
+    padding-top: 0;
+}
+
+.modal-header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-header-cross {
+    color: greenyellow;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-fields-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.modal-fields {
+    width: 100%;
+}
+
+.modal-fields > input {
+    width: 95%;
+    border-radius: 6px;
+    padding: 6px 5px;
+    border: none;
+    outline: none;
+    background-color: #4d4d4d;
+    color: whitesmoke;
+}
+
+.modal-fields-button-container {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.modal-fields-button-container > button {
+    border: none;
+    cursor: pointer;
+}
+
+.modal-fields-cancel-button {
+    color: greenyellow;
+    background-color: transparent;
+}
+
+.modal-fields-save-button-disabled {
+    background-color: #bfbfbf;
+    color: #404040;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.modal-fields-save-button {
+    background-color: greenyellow;
+    color: #404040;
+    padding: 8px 12px;
+    border-radius: 12px;
+}

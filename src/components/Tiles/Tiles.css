@@ -1,0 +1,43 @@
+.all-tiles-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tiles-container {
+    background-color: #556B2F;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    height: 80px;
+    flex: 0.3;
+}
+
+.tiles-left-container {
+    margin-top: 0;
+}
+
+.tiles-left-container > img {
+    height: 40px;
+    width: 40px;
+}
+
+.tiles-right-container {
+    margin-left: 20px;
+    height: 100%;
+}   
+
+.tiles-right-container-title {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tiles-right-container-description {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: -5px;
+    color: white;
+}
